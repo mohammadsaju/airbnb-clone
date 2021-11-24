@@ -1,0 +1,7 @@
+@tailwind components;
+
+@layer components{
+    .chep-btn {
+        @apply px-5 py-2 border rounded-full text-sm hover:shadow-lg active:scale-95 active:bg-gray-100 transition ease-out;
+    }
+}
